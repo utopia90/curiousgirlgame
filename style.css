@@ -1,0 +1,77 @@
+.hide {
+    display: none;
+}
+
+html{
+    text-align: center;
+    font-family: 'Handlee';
+    background-image: url(https://i.pinimg.com/564x/95/cc/39/95cc395a57e1064799fc70f850d8f747.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    margin-top: 90px;
+    background-color: whitesmoke;
+   
+}
+
+h1 {
+    font-size: 85px;
+    font-family: 'Gochi Hand';
+    color: palevioletred;
+}
+
+#subt1{
+    font-size: 25px;
+   
+
+}
+
+#start-btn {
+   width: 200px;
+   height: 75px;
+   background-color: palevioletred;
+   color: lightblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-radius: 5px;
+   font-size: 30px;
+}
+
+#start-btn:hover {
+    background: rgba(0,0,0,0);
+	color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    transform: skew(-10deg);
+
+}
+
+#where-to-display-questions,#msgyes {
+font-size: 60px;
+margin-left: 80px;
+}
+
+#button-yes, #button-no, #button-next, #tell-me{
+    width: 200px;
+    height: 75px;
+    background-color: palevioletred;
+    color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+
+#button-yes:hover, #button-no:hover, #button-next:hover, #tell-me:hover {
+    background: rgba(0,0,0,0);
+	color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    transform: skew(-10deg);
+}
+
+#endcategorymsg {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#final-msg {
+    font-size: 30px;
+    margin-left: 400px;
+}
